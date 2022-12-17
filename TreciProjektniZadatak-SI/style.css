@@ -1,0 +1,67 @@
+.grid{
+    width: 500px;
+    height: 500px;
+    display:flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: #a7c957;
+}
+.grid div{
+    width: 50px;
+    height: 50px;
+}
+.snake{
+    background-color: #386641;
+}
+.snakehead{
+    background-color: #344e41
+}
+.apple{
+    background-color: #bc4749;
+}
+.head{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: #6a994e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.size{
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section{
+    display: flex;
+}
+
+
+
+
+.btn {
+    
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #4e8699;
+    outline: none;
+    transition: 0.5s ease-in-out;
+}
+  
+
+.btn:hover {
+    transition: 0.5s ease-in-out;
+    background: #4e8699;
+}
+  
+
